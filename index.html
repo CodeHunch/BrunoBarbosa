@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="../teste/style.css">
+    <!-- Inclui ícones da biblioteca Boxicons para uso na página -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo que leva à página inicial -->
+        <a href="../teste/index.html" class="logo"><span>Bruno Felipe</span> Mayer Barbosa</a>
+        <!-- Navegação principal -->
+        <nav class="navbar">
+            <!-- Link ativo para a seção "Sobre mim" -->
+            <a href="../teste/sobre.html" class="active">Sobre mim</a>
+            <!-- Links para outras seções -->
+            <a href="../teste/formacao.html">Formação profissional</a>
+            <a href="../teste/portfolio.html">Portfólio</a>
+        </nav>
+        <!-- Link para a seção de contato -->
+        <a href="../teste/contato.html" class="contact">Meu contato</a>
+    </header>
+
+    <!-- Seção principal da página -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Oi Mundo!</h3>
+            <h1>Sou um desenvolvedor fullstack</h1>
+            <p>Estudante de ADS na Uninter</p>
+            <div class="btn-box">
+                <button class="btn-1">Me contrata</button>
+                <button class="btn-2">Me contrata, por favor</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../teste/imagem.jpg" alt="Imagem de apresentação">
+        </div>
+    </section>
+
+    <!-- Seção de formulário de contato -->
+    <section class="contact-form">
+        <h2 class="contact">Entre em <span>contato comigo</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <!-- Campos de entrada do formulário -->
+                <input type="text" placeholder="Nome completo" required>
+                <input type="email" placeholder="Seu melhor email" required>
+                <input type="tel" placeholder="Seu telefone" required>
+                <input type="text" placeholder="Assunto" required>
+            </div>
+            <!-- Área de texto para mensagem -->
+            <textarea name="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+            <input type="submit" value="Envie sua mensagem" class="btn-1">
+        </form>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-twitch'></i></a>
+        </div>
+        <!-- Lista de links para navegação -->
+        <ul class="list">
+            <li><a href="../teste/sobre.html">Sobre mim</a></li>
+            <li><a href="../teste/formacao.html">Formação profissional</a></li>
+            <li><a href="../teste/portfolio.html">Portfólio</a></li>
+            <li><a href="../teste/contato.html">Contato</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+        </ul>
+        <!-- Informação de copyright -->
+        <p class="copyright">Copyright ©2024 - Todos os direitos reservados - Bruno Felipe Mayer Barbosa</p>
+    </footer>
+</body>
+</html>
